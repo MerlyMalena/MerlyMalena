@@ -2,12 +2,13 @@
 
 > Fullstack Developer - Future DBA
 
-<p align="center">
+<!-- <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=MerlyMalena&theme=github-dark&mode=light" />
     <img src="https://www.gitskins.com/api/section/hero?username=MerlyMalena&theme=github-dark" alt="MerlyMalena hero section" />
   </picture>
 </p>
+-->
 
 <p align="center">
   <picture>
