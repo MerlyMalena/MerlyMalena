@@ -1,9 +1,48 @@
-<div align="center">
+# MerlyMalena
 
-  <img src="./assets/about-me.svg" alt="About Me" width="100%" />
+> Fullstack Developer - Future DBA
 
-  <br/><br/>
+<!-- <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=MerlyMalena&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/hero?username=MerlyMalena&theme=github-dark" alt="MerlyMalena hero section" />
+  </picture>
+</p>
+-->
 
-  <img src="./assets/stack.svg" alt="My Stack" width="100%" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=MerlyMalena&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/about?username=MerlyMalena&theme=github-dark" alt="MerlyMalena about section" />
+  </picture>
+</p>
 
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=MerlyMalena&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stack?username=MerlyMalena&theme=github-dark" alt="MerlyMalena stack section" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=MerlyMalena&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stats?username=MerlyMalena&theme=github-dark" alt="MerlyMalena stats section" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=MerlyMalena&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/projects?username=MerlyMalena&theme=github-dark" alt="MerlyMalena projects section" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=MerlyMalena&theme=github-dark&email=merlymalena2303%40hotmail.com&mode=light" />
+    <img src="https://www.gitskins.com/api/section/social?username=MerlyMalena&theme=github-dark&email=merlymalena2303%40hotmail.com" alt="MerlyMalena social section" />
+  </picture>
+</p>
+
+<!-- Sections: Header, About Me, Skills, GitHub Stats, Projects, Connect -->
