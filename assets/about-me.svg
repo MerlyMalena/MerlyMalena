@@ -1,0 +1,111 @@
+<svg fill="none" viewBox="0 0 950 330" width="950" height="330" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente suave pistacho -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#809456" />
+      <stop offset="50%" stop-color="#73864c" />
+      <stop offset="100%" stop-color="#64763e" />
+    </linearGradient>
+
+    <!-- Clip path para redondear las esquinas interiores -->
+    <clipPath id="cardRadius">
+      <rect x="12" y="12" width="926" height="306" rx="20" />
+    </clipPath>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&amp;family=Comfortaa:wght@500;700&amp;display=swap');
+
+    .title-text {
+      font-family: 'Fredoka', 'Arial Rounded MT Bold', sans-serif;
+      font-weight: 700;
+      font-size: 38px;
+      fill: #ffffff;
+    }
+    .body-text {
+      font-family: 'Comfortaa', cursive, -apple-system, sans-serif;
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 1.55;
+      fill: #f5f6ee;
+    }
+    .status-text {
+      font-family: 'Comfortaa', cursive, -apple-system, sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      fill: #ffffff;
+    }
+    .highlight {
+      font-weight: 800;
+      fill: #ffffff;
+    }
+
+    /* Animación flotante relajante de Snoopy */
+    .snoopy-float {
+      animation: float 4s ease-in-out infinite;
+      transform-origin: 800px 165px;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-7px) rotate(1.2deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+
+    /* Pulso sutil en la plantita */
+    .pulse-leaf {
+      animation: pulse 2.5s ease-in-out infinite;
+      transform-origin: 68px 285px;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.12); }
+    }
+  </style>
+
+  <!-- Borde exterior grueso color oliva oscuro -->
+  <rect width="950" height="330" rx="30" fill="#3c4528" />
+
+  <!-- Cuerpo de la tarjeta -->
+  <g clip-path="url(#cardRadius)">
+    <rect x="12" y="12" width="926" height="306" fill="url(#cardBg)" />
+
+    <!-- Encabezado -->
+    <text x="58" y="68" class="title-text">About me</text>
+
+    <!-- Párrafo principal -->
+    <text class="body-text">
+      <tspan x="58" y="108">Hola, soy Merly :D</tspan>
+      <tspan x="58" y="138">Desarrolladora de software enfocada en crear</tspan>
+      <tspan x="58" y="168">aplicaciones web funcionales, código limpio y</tspan>
+      <tspan x="58" y="198">experiencias inolvidables.</tspan>
+      <tspan x="58" y="228">Siempre aprendiendo cositas nuevas y construyendo</tspan>
+      <tspan x="58" y="256">proyectos (Aunque a veces malgan sal).</tspan>
+    </text>
+
+    <!-- Icono de plantita animado con espacio extra -->
+    <g class="pulse-leaf">
+      <path d="M 68 290 C 68 280 58 275 50 276 C 50 286 59 292 68 290 Z" fill="#9de653" />
+      <path d="M 68 290 C 68 277 79 271 87 273 C 87 284 77 292 68 290 Z" fill="#bcf36a" />
+      <path d="M 68 290 L 68 299" stroke="#9de653" stroke-width="3" stroke-linecap="round" />
+    </g>
+
+    <!-- Línea final con espacio extra respecto al párrafo anterior -->
+    <text x="96" y="296" class="status-text">
+      Actualmente mejorando en: <tspan class="highlight">TypeScript</tspan>
+    </text>
+
+    <!-- Snoopy flotando centrado a la derecha -->
+    <g class="snoopy-float">
+      <image 
+        href="https://raw.githubusercontent.com/MerlyMalena/MerlyMalena/main/assets/snoopy.png" 
+        x="675" 
+        y="42" 
+        width="245" 
+        height="245" 
+        preserveAspectRatio="xMidYMid meet" 
+      />
+    </g>
+  </g>
+</svg>
